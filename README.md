@@ -12,7 +12,7 @@ The Outlier Suppression+ (OS+) effectively suppresses outliers in large language
 
 We assess the efficacy of our approach under both standard and fine-grained quantization settings. On standard one, OS+ achieves near-floating-point performance on 8-bit and 6-bit BERT, OPTs, BLOOM, and BLOOMZ. On fine-grained one, OS+ can surpass others by 9.41\% on 4-bit LLaMA with per-token quantization and obtain lossless results on 4-bit OPT with per-group quantization. 
 
-In the following sections, [Support](#support) gives supported models and quantization schemes, [Getting Started](#{Getting Started}) introduces the whole procedure to run this project including data preparation, quantization, evaluation and updated model export. [Evaluation](#evaluation) lists configs for each table in the paper for other researchers to reproduce.
+In the following sections, [Support](#support) gives supported models and quantization schemes, [Getting Started](#Getting_Started) introduces the whole procedure to run this project including data preparation, quantization, evaluation and updated model export. [Evaluation](#evaluation) lists configs for each table in the paper for other researchers to reproduce.
 
 ## Support
 
